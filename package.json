@@ -1,0 +1,18 @@
+{
+  "name": "opentask",
+  "private": true,
+  "description": "Plateforme open source de gestion de projets collaboratifs",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down"
+  }
+}

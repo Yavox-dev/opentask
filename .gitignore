@@ -155,3 +155,11 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# OpenTask
+.next/
+dist/
+.turbo/
+*.tsbuildinfo
+.env.local
+.DS_Store
